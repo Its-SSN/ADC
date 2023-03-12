@@ -1,0 +1,148 @@
+<!DOCTYPE <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Generate Ticket</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="hi.css">
+</head>
+<style>
+    body {
+        background-color: pink;
+    }
+    
+    .name {
+        font-weight: italic;
+        font-size: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    #new {
+        text-align: center;
+        display: flex;
+        margin: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #op {
+        border: 2px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -170px;
+        margin-top: -100px;
+        text-align: center;
+    }
+    
+    .text {
+        margin-top: 20px;
+        width: 250px;
+        border-radius: 5px;
+    }
+    
+    .buttons {
+        display: flex;
+        margin-left: 100px;
+        border-radius: 4px;
+    }
+    
+    .jkl {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-radius: 4px;
+        background-color: blue;
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-weight: bold;
+        box-shadow: 3px 3px 4px grey;
+        cursor: pointer;
+        transition: all 0.3s ease-in 0s;
+        margin-right: 17px;
+    }
+    
+    .jkl:hover {
+        transform: scale(1.2);
+    }
+    
+    .image {
+        height: 300px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -300px;
+        margin-top: -240px;
+    }
+    
+    @media(max-width:550px) {
+        .image {
+            height: 200px;
+            margin-left: -225px;
+        }
+        .name {
+            font-size: 18px;
+            margin-left: -80px;
+        }
+        .text {
+            margin-left: 5px;
+        }
+        .name {
+            margin-left: 0px;
+        }
+        .buttons {
+            margin-left: 40px;
+        }
+    }
+    
+    @media(max-width:450px) {
+        .image {
+            height: 160px;
+            margin-left: -185px;
+        }
+        .name {
+            font-size: 18px;
+            margin-left: -80px;
+        }
+        .text {
+            margin-left: 5px;
+        }
+        .name {
+            margin-left: 0px;
+        }
+        .buttons {
+            margin-left: 40px;
+        }
+    }
+</style>
+
+<body>
+    <img src="png.png" alt="There is an error" class="image">
+    <form id="op" action="hii.html">
+        <div id="new">
+            <b><i><label class="name">Enter your name to generate ticket: <br><input type = "text" class = "text" placeholder="i.e.Saumya Kumar" required></label>
+            </b></div>
+        </i>
+        <br>
+        <br>
+        <div class="buttons">
+            <div id="new">
+                <input type="submit" value="Generate e-ticket" class="jkl">
+
+            </div>
+            <div id="new">
+                <input type="reset" value="Reset name" class="jkl">
+            </div>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
